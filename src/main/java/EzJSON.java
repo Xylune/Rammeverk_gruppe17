@@ -17,15 +17,19 @@ public class EzJSON {
         return "";
     }
 
-    public <T> T fromJSON(String jsonString){
+    public <T> T fromJSON(String jsonString, Class<T> classofT){
         return null;
     }
 
-    public <T> T fromJSON(File file) {
+    public <T> T fromJSON(File file, Class<T> classofT) {
         return null;
     }
 
     public <T> T fromJSON(Reader reader, Class<T> classofT) {
+        return null;
+    }
+
+    public <T> T fromJSON(EzJsonElement ezJsonElement, Class<T> classofT) {
         return null;
     }
 

@@ -8,8 +8,7 @@ public class EzJSONBuilder {
     }
 
     public EzJSON create() {
-        EzJSON ezJSON = new EzJSON(this);
-        return ezJSON;
+        return new EzJSON(this);
     }
 
 }
